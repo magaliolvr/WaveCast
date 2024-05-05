@@ -1,0 +1,9 @@
+.menu-lateral{
+    display: grid;
+    grid-template-rows: repeat(3, auto) 1fr;
+    row-gap: 2rem; /* rem corresponde ao tamanho da fonte, dado que a fonte tem 16px, 2rem equivalem a 32px */
+}
+
+.menu-lateral__logo{
+    justify-self: center; /* para alinhar na horizontal */
+}
